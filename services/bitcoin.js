@@ -4,6 +4,8 @@ import * as bitcoin from "bitcoinjs-lib";
 import { deriveChildPublicKey, najPublicKeyStrToUncompressedHexPoint, uncompressedHexPointToBtcAddress } from '../services/kdf';
 import { parseNearAmount } from "near-api-js/lib/utils/format";
 
+// foo
+
 export class Bitcoin {
   constructor(chain_rpc, network) {
     this.chain_rpc = chain_rpc;
